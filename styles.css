@@ -114,7 +114,7 @@ main {
 
 .button-group {
     display: flex;
-    gap: 25px; /* Adjust the gap between buttons as needed */
+    gap: 40px; /* Adjust the gap between buttons as needed */
 }
 
 .button {
