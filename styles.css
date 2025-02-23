@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #343535;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.dropdown-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.dropdown-form {
+    margin-right: 50px;
+}
+
+.dropdown-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.dropdown-container:last-child {
+    margin-right: 0;
+}
+
+.dropdown-form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.SKILL {
+    display: flex;
+    margin-left: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #373838;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #292a2b;
+    color: white;
+}
+
+.my-Profile {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-Profile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #2a2b2c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #222223;
+}
+
