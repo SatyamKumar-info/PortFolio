@@ -260,7 +260,8 @@ html {
 
 .airline {
     position: absolute;
-    top : 560px;
+     background-color: gray;
+    top: 560px;
     left: 80px;
     font-family: monospace;
     font-size: large;
@@ -281,7 +282,8 @@ html {
 }
 .Messenger {
     position: absolute;
-    top : 560px;
+     background-color: gray;
+    top: 560px;
     left: 820px;
     font-family: monospace;
     font-size: large;
@@ -302,7 +304,8 @@ html {
 }
 .ball {
     position: absolute;
-    top : 900px;
+     background-color: gray;
+    top: 900px;
     left: 820px;
     font-family: monospace;
     font-size: large;
@@ -323,7 +326,8 @@ html {
 }
 .hanging {
     position: absolute;
-    top : 900px;
+    background-color: gray;
+    top: 900px;
     left: 80px;
     font-family: monospace;
     font-size: large;
@@ -340,6 +344,7 @@ html {
 
 .Projects {
     position: absolute;
+    background-color: gray;
     font-weight: 600;
     left: 670px;
     border: solid 7px rgb(36, 35, 35);
